@@ -113,9 +113,9 @@ $_POST["insert your message here"]. "From: an@email.address");
         <div class="row" id="form-row">
             <div class="col" id="form-col-1">
                 <form method="post" name="myemailform" action="send-email.php">
-                     <h5 id="email-txt">EMAIL ME</h5><input type="text" name="name" value="Your Name" id="name-input">
+                     <h5 id="email-txt">EMAIL ME</h5><input type="text" name="name" placeholder="Your Name" id="name-input">
                      <br/>
-                    <input type="text" value="sample@email.com" id="email-input" name="email">
+                    <input type="text" placeholder="sample@email.com" id="email-input" name="email">
                     <br/>
                     <textarea name="message" id="message-text-area" placeholder="Type your message here"></textarea>
                     <br/>
