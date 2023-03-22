@@ -1,0 +1,444 @@
+#nav-bar {
+  background-color: #01FF56!important;
+}
+
+.bg-light {
+  background-color: #01FF56 !important;
+}
+
+#nav-home {
+  border: solid black;
+  height: 125px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  margin-right: 100px !important;
+  margin-left: 125px !important;
+}
+
+#nav-about {
+  border: solid black;
+  height: 125px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  margin-right: 100px !important;
+}
+
+#nav-portfolio {
+  border: solid black;
+  height: 125px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  margin-right: 100px !important;
+}
+
+#nav-contact {
+  border: solid black;
+  height: 125px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  
+}
+
+#port-row-txt {
+  background-color: #5AFF80;
+}
+
+#port-txt {
+  font-size: 100px;
+  margin-left: 7%;
+  margin-top: 7%;
+  margin-bottom: 4%;
+  margin-right: 0%;
+  width: 100%;
+}
+
+#portfolio-heading-txt {
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+#portfolio-heading {
+  margin-top: 5%;
+}
+
+#project-row-1 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#project-row-2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#project-row-3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 7%;
+}
+
+#project-1-img {
+  height: 100%;
+  width: 100%;
+}
+
+#project-2-img {
+  height: 100%;
+  width: 100%;
+}
+
+#project-3-img {
+  height: 90%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#project-4-img {
+  height: 90%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#project-5-img {
+  height: 80%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#shop-tas-heading {
+  margin-bottom: 5%;
+}
+
+#list-heading {
+  margin-bottom: 5%;
+}
+
+#macro-heading {
+  margin-top: 5%;
+  padding-top: 10%;
+}
+
+#light-in-time-heading {
+  padding-top: 10%;
+  margin-top: 5%;
+}
+
+#portfolio-img-heading {
+  padding-top: 5%;
+  margin-top: 3%;
+}
+
+#footer-row {
+  background-color: #01FF56;
+  margin-top: 15%;
+}
+
+#firstName {
+  margin-left: 5%;
+  width: 70%;
+}
+
+#firstNameLabel {
+  margin-left: 5%;
+}
+
+
+#project-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#project-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#project-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#project-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#project-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#project-1-img {
+  width: 100%;
+  height: auto;
+}
+
+#project-2-img {
+  width: 100%;
+  height: auto;
+}
+
+#project-3-img {
+  width: 100%;
+  height: auto;
+}
+
+#project-4-img {
+  width: 100%;
+  height: auto;
+}
+
+#shop-tas-dets {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#shop-tas-dets1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#shop-tas-dets2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#shop-tas-dets3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#shop-tas-dets {
+  display: none;
+}
+
+#project-1:hover #shop-tas-dets {
+  display: block;
+}
+
+#project-1:hover #project-1-img {
+  display: none;
+}
+
+#project-1:hover #shop-tas-heading {
+  display: none;
+}
+
+#shop-tas-dets1 {
+  display: none;
+}
+
+#project-2:hover #shop-tas-dets1 {
+  display: block;
+}
+
+#project-2:hover #project-2-img {
+  display: none;
+}
+
+#project-2:hover #list-heading {
+  display: none;
+}
+
+#shop-tas-dets2 {
+  display: none;
+}
+
+#project-3:hover #shop-tas-dets2 {
+  display: block;
+}
+
+
+#project-3:hover #project-3-img {
+  display: none;
+}
+
+#project-3:hover #macro-heading {
+  display: none;
+}
+
+#shop-tas-dets3 {
+  display: none;
+}
+
+#project-4:hover #shop-tas-dets3 {
+  display: block;
+}
+
+
+#project-4:hover #project-4-img {
+  display: none;
+}
+
+#project-4:hover #light-in-time-heading {
+  display: none;
+}
+
+#footer-row {
+  background-color: #01FF56;
+}
+
+#firstName {
+  margin-left: 5%;
+  width: 70%;
+}
+
+#firstNameLabel {
+  margin-left: 5%;
+}
+
+#contact-me-header {
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 3%;
+  border-bottom: solid black 1px;
+}
+
+#form-col-1 {
+  margin-left: 20%;
+}
+
+#name-input {
+  width: 80%;
+  margin-top: 5%;
+  height: 50px;
+  background-color: #01FF56;
+  border: none;
+  color: #858585;
+  border-bottom: 1px solid black;
+}
+
+#email-input {
+  width: 80%;
+  margin-top: 3%;
+  height: 50px;
+  background-color: #01FF56;
+  border: none;
+  color: #858585;
+  border-bottom: 1px solid black;
+}
+
+#message-text-area {
+  width: 80%;
+  margin-top: 3%;
+  height: 55%;
+  height: 50px;
+  background-color: #01FF56;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#submit-btn {
+  width: 30%;
+  height: 55%;
+  margin-top: 3%;
+  height: 50px;
+  background-color: #01FF56;
+  margin-bottom: 17%;
+}
+
+#resume-btn-2 {
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  display: block;
+  background-color: #01FF56;
+  color: rgb(0, 0, 0);
+  border: #000000 solid 1px;
+}
+
+/* unvisited link */
+#a-1 {
+  color: #0105ff;
+  cursor: pointer;
+}
+
+/* mouse over link */
+#a-1:hover {
+  color: rgb(113, 6, 201);
+}
+
+/* selected link */
+#a-1:active {
+  color: #01FF56;
+}
+
+/* unvisited link */
+#a-2 {
+  color: #0105ff;
+}
+
+/* mouse over link */
+#a-2:hover {
+  color: rgb(113, 6, 201);
+}
+
+/* selected link */
+#a-2:active {
+  color: #01FF56;
+}
+
+#github-img {
+  height: 175px;
+  width: 250px;
+}
+
+#jw_logo {
+  height: 10%;
+  width: 10%;
+}
