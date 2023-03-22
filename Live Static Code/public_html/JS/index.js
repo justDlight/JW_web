@@ -74,6 +74,12 @@ function dwn_resume() {
     link.click()
   }
 
+  function web_github_link () {
+    var link = document.createElement("a")
+    link.href = "https://github.com/justDlight/JW_web";
+    link.target = "_blank"
+    link.click()
+  }
 
   function switchVisible() {
     // hide all description paragraphs

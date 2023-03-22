@@ -56,7 +56,7 @@
     <div class="row" id="project-row-3">
         <div class="col" id="project-5">
         <h3 id="portfolio-img-heading">Portfolio: Website</h3>
-        <p id="shop-tas-dets4">Yes thats right I am talking about the current website you are on. This is my fully static 100% self coded portfolio website.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, PhP, ajax, CSS, Bootstrap<br/><br/><img id="github-img"src="https://lightintime.com/img/GitHub_Logo.png"><br/><br/>GitHub: <a onclick="light_github_link()" id="a-1">https://github.com/justDlight/Light_In_Time</a></p>
+        <p id="shop-tas-dets4">Yes thats right I am talking about the current website you are on. This is my fully static 100% self coded portfolio website.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, PhP, ajax, CSS, Bootstrap<br/><br/><img id="github-img"src="https://lightintime.com/img/GitHub_Logo.png"><br/><br/>GitHub: <a onclick="web_github_link()" id="a-1">https://github.com/justDlight/JW_web</a></p>
         </div>
     </div>
     <div class="row" id="project-row-1">
