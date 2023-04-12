@@ -53,11 +53,11 @@
     <!-- Start of BOOTSTRAP ROW -->
     <div class="row" id="home-heading">
         <!-- Start of BOOTSTRAP COLUMN -->
+        <button id="btnMobile" onmouseover="blackOut(this)" onclick="goMobile()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">FOR MOBILE</button>
         <div class="col" id="heading-txt-col">
             <h1 id="software-txt">Software Developer</h1>
             <h2 id="software-sub-txt">Hi, I am John Weiss, a passionate developer.</h2>
             <button id="btn" onmouseover="blackOut(this)" onclick="toContactme()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">CONTACT ME</button>
-            <button id="btn" onmouseover="blackOut(this)" onclick="goMobile()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">FOR MOBILE</button>
         </div>
         <!-- END of BOOTSTRAP COLUMN -->
         <!-- Start of BOOTSTRAP COLUMN -->

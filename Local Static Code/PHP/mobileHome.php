@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-home" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/">Home</a>
+                        <a class="nav-link active" id="nav-home" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/mobileHome.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" id="nav-about" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/#about-row">About</a>
@@ -223,17 +223,19 @@
                     <br/>
                     <textarea name="message" id="message-text-area" placeholder="Your message here"></textarea>
                     <br/>
-                    <input type="submit" onmouseover="blackOut(this)" onmouseout="normalImg(this)" id="submit-btn" value="Send Email">
+                    <input type="submit" onmouseover="blackOut(this)" onmouseout="normalImg(this)" id="submit-btn" value="Email">
                 </form>
             </div>
-            <div class="col" id="form-col-2">
-                <h5 id="contact-footer">CONTACT ME</h5>
-                <p>Glenorchy Tasmania</p>
-                <p>04-09091-192</P>
-                <p>John.Weiss1996@gmail.com</p>
-                <a id="resume-btn-2" onmouseover="blackOut(this)" onmouseout="normalImg(this)" onclick="dwn_resume()">View my CV</a>
-            </div>
         </div>
+            <div class="row" id="form-row">
+                <div class="col" id="form-col-1">
+                    <h5 id="contact-footer">CONTACT ME</h5>
+                    <p>Glenorchy Tasmania</p>
+                    <p>04-09091-192</P>
+                    <p>John.Weiss1996@gmail.com</p>
+                    <a id="resume-btn-2" onmouseover="blackOut(this)" onmouseout="normalImg(this)" onclick="dwn_resume()">View my CV</a>
+                </div>
+            </div>
     </div>
     <!-- End of BOOTSTRAP ROW -->
 
