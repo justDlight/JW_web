@@ -15,11 +15,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" type="image/x-icon" href="https://lightintime.com/img/JW.jpg">
   </head>
   <body>
-
-
 
     <!-- Start of BOOTSTRAP GRID -->
     <!-- Start of BOOTSTRAP ROW -->
@@ -33,16 +32,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-home" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/">Home</a>
+                        <a class="nav-link active" id="nav-home" href="https://johnweiss1996.com/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-about" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/#about-row">About</a>
+                        <a class="nav-link active" id="nav-about" href="https://johnweiss1996.com/#about-row">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-portfolio" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/portfolio.php">Projects</a>
+                        <a class="nav-link active" id="nav-portfolio" href="https://johnweiss1996.com/portfolio.php">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-contact" href="http://localhost/Portfolio/Local%20Static%20Code/PHP/#footer-row">Contact</a>
+                        <a class="nav-link active" id="nav-contact" href="https://johnweiss1996.com/#footer-row">Contact</a>
                     </li>
                     </ul>
                 </div>
@@ -75,7 +74,37 @@
             <h2 id="about-sub-txt">I am a highly motivated and progress-focused software developer with a degree in Bachelor of Information and Communication Technology. I am a capable and consistent problem-solver skilled at prioritizing and managing projects with proficiency. My main strengths lie in web development as a full stack developer.</h2>
             <br/>
             <a id="resume-btn" onmouseover="blackOut1(this)" onmouseout="normalImg1(this)" onclick="dwn_resume()">View my CV</a>
-            
+            <div id="about-form-bottom">
+                <div class="row" id="top-progress">
+                    <div class="col" id="top-progress-col-1">
+                        <h3>Web Development</h3>
+                        <progress value="90" max="100" style="appearance: none; height: 10px; background-color: #dddddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                        </progress>
+                    </div>
+                    <div class="col" id="top-progress-col-2">
+                        <h3>Application Development</h3>
+                        <progress value="65" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                          </progress>
+                    </div>
+                </div>
+                <div class="row" id="bottom-progress">
+                    <div class="col" id="bottom-progress-col-1">
+                        <h3>UI Design</h3>
+                        <progress value="75" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                        </progress>
+                    </div>
+                    <div class="col" id="bottom-progress-col-2">
+                        <h3>C, C#, Java, Python</h3>
+                        <progress value="70" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                        </progress>
+                    </div>
+                </div>
+                <h3 id="bar-msg">The bars above indicate my skill level in each category</h3>
+            </div>
         </div>
     </div>
     <!-- End of BOOTSTRAP ROW -->
@@ -249,7 +278,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- My JavaScript Code -->
-    <script async src="../JS/index.js"></script> 
+    <script async src="JS/index.js"></script> 
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

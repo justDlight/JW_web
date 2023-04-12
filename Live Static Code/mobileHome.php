@@ -15,10 +15,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="CSS/index.css">
-    <link rel="icon" type="image/x-icon" href="https://lightintime.com/img/JW.jpg">
+    <link rel="stylesheet" href="../CSS/mobileHome.css">
   </head>
   <body>
+
+
 
     <!-- Start of BOOTSTRAP GRID -->
     <!-- Start of BOOTSTRAP ROW -->
@@ -56,13 +57,10 @@
             <h1 id="software-txt">Software Developer</h1>
             <h2 id="software-sub-txt">Hi, I am John Weiss, a passionate developer.</h2>
             <button id="btn" onmouseover="blackOut(this)" onclick="toContactme()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">CONTACT ME</button>
+            <button id="btn" onmouseover="blackOut(this)" onclick="goDesktop()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">FOR DESKTOP</button>
         </div>
         <!-- END of BOOTSTRAP COLUMN -->
-        <!-- Start of BOOTSTRAP COLUMN -->
-        <div class="col">
-            <img src="https://lightintime.com/img/my-port.png" id="bin-gif">
-        </div>
-        <!-- END of BOOTSTRAP COLUMN -->
+        
     </div>
     <!-- End of BOOTSTRAP ROW -->
     <!-- Start of BOOTSTRAP ROW -->
@@ -73,45 +71,15 @@
             <h2 id="about-sub-txt">I am a highly motivated and progress-focused software developer with a degree in Bachelor of Information and Communication Technology. I am a capable and consistent problem-solver skilled at prioritizing and managing projects with proficiency. My main strengths lie in web development as a full stack developer.</h2>
             <br/>
             <a id="resume-btn" onmouseover="blackOut1(this)" onmouseout="normalImg1(this)" onclick="dwn_resume()">View my CV</a>
-            <div id="about-form-bottom">
-                <div class="row" id="top-progress">
-                    <div class="col" id="top-progress-col-1">
-                        <h3>Web Development</h3>
-                        <progress value="90" max="100" style="appearance: none; height: 10px; background-color: #dddddd; border-radius: 20px; overflow: hidden;">
-                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
-                        </progress>
-                    </div>
-                    <div class="col" id="top-progress-col-2">
-                        <h3>Application Development</h3>
-                        <progress value="65" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
-                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
-                          </progress>
-                    </div>
-                </div>
-                <div class="row" id="bottom-progress">
-                    <div class="col" id="bottom-progress-col-1">
-                        <h3>UI Design</h3>
-                        <progress value="75" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
-                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
-                        </progress>
-                    </div>
-                    <div class="col" id="bottom-progress-col-2">
-                        <h3>C, C#, Java, Python</h3>
-                        <progress value="70" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
-                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
-                        </progress>
-                    </div>
-                </div>
-                <h3 id="bar-msg">The bars above indicate my skill level in each category</h3>
-            </div>
+            
         </div>
     </div>
     <!-- End of BOOTSTRAP ROW -->
     <!-- Start of BOOTSTRAP ROW -->
     <div class="row" id="expertise-row">
         <div class="col" id="exp-panel">
-            <h1 id="web-txt" class="active" onclick="switchVisible()">Web Development Experience</h1>
-            <h1 id="app-txt">Application Development Experience</h1>
+            <h1 id="web-txt" class="active" onclick="switchVisible()">Web Dev Experience</h1>
+            <h1 id="app-txt">Application Dev Experience</h1>
             <h1 id="ui-txt">UI Design Experience</h1>
             <h1 id="other-txt">Other Language Experience</h1>
         </div>
@@ -277,7 +245,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- My JavaScript Code -->
-    <script async src="JS/index.js"></script> 
+    <script async src="../JS/index.js"></script> 
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

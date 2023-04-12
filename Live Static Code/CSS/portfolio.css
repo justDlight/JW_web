@@ -78,27 +78,30 @@
 
 #portfolio-heading-txt {
   text-align: center;
-  margin-bottom: 0%;
+  margin-bottom: 6%;
+  margin-top: 6%;
+  
 }
 
 #portfolio-heading {
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 #project-row-1 {
-  margin-left: 10%;
   margin-right: 10%;
+  margin-left: 10%;
 }
 
 #project-row-2 {
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 6%;
 }
 
 #project-row-3 {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 7%;
+  margin-bottom: 6%;
 }
 
 #project-1-img {
@@ -233,95 +236,6 @@
   height: auto;
 }
 
-#shop-tas-dets {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#shop-tas-dets1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#shop-tas-dets2 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#shop-tas-dets3 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#shop-tas-dets {
-  display: none;
-}
-
-#project-1:hover #shop-tas-dets {
-  display: block;
-}
-
-#project-1:hover #project-1-img {
-  display: none;
-}
-
-#project-1:hover #shop-tas-heading {
-  display: none;
-}
-
-#shop-tas-dets1 {
-  display: none;
-}
-
-#project-2:hover #shop-tas-dets1 {
-  display: block;
-}
-
-#project-2:hover #project-2-img {
-  display: none;
-}
-
-#project-2:hover #list-heading {
-  display: none;
-}
-
-#shop-tas-dets2 {
-  display: none;
-}
-
-#project-3:hover #shop-tas-dets2 {
-  display: block;
-}
-
-
-#project-3:hover #project-3-img {
-  display: none;
-}
-
-#project-3:hover #macro-heading {
-  display: none;
-}
-
-#shop-tas-dets3 {
-  display: none;
-}
-
-#project-4:hover #shop-tas-dets3 {
-  display: block;
-}
-
-
-#project-4:hover #project-4-img {
-  display: none;
-}
-
-#project-4:hover #light-in-time-heading {
-  display: none;
-}
 
 #footer-row {
   background-color: #01FF56;
@@ -440,4 +354,11 @@
   height: 10%;
   width: 10%;
 }
-  
+
+
+
+@media (max-width: 767px) {
+  #shop-tas-dets {
+    display: none;
+  }
+}

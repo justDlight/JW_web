@@ -15,7 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/mobileHome.css">
   </head>
   <body>
 
@@ -57,14 +57,10 @@
             <h1 id="software-txt">Software Developer</h1>
             <h2 id="software-sub-txt">Hi, I am John Weiss, a passionate developer.</h2>
             <button id="btn" onmouseover="blackOut(this)" onclick="toContactme()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">CONTACT ME</button>
-            <button id="btn" onmouseover="blackOut(this)" onclick="goMobile()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">FOR MOBILE</button>
+            <button id="btn" onmouseover="blackOut(this)" onclick="goDesktop()" onmouseout="normalImg(this)" type="button" value="CONTACT ME">FOR DESKTOP</button>
         </div>
         <!-- END of BOOTSTRAP COLUMN -->
-        <!-- Start of BOOTSTRAP COLUMN -->
-        <div class="col">
-            <img src="https://lightintime.com/img/my-port.png" id="bin-gif">
-        </div>
-        <!-- END of BOOTSTRAP COLUMN -->
+        
     </div>
     <!-- End of BOOTSTRAP ROW -->
     <!-- Start of BOOTSTRAP ROW -->
@@ -82,9 +78,9 @@
     <!-- Start of BOOTSTRAP ROW -->
     <div class="row" id="expertise-row">
         <div class="col" id="exp-panel">
-            <h1 id="web-txt" class="active" onclick="switchVisible()">Web Development Experience</h1>
-            <h1 id="app-txt">Application Development Experience</h1>
-            <h1 id="ui-txt">UI Design Experience</h1>
+            <h1 id="web-txt" class="active" onclick="switchVisible()">Web Dev Experience</h1>
+            <h1 id="app-txt">Application Dev Experience</h1>
+            <h1 id="ui-txt">UI Design dddddddd   Experience</h1>
             <h1 id="other-txt">Other Language Experience</h1>
         </div>
         <div class="col" id="description-txt">

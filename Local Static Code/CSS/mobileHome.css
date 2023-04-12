@@ -1,0 +1,467 @@
+#nav-bar {
+    background-color: #5AFF80 !important;
+}
+
+.bg-light {
+    background-color: #01FF56 !important;
+}
+
+#nav-home {
+    border: solid black;
+    height: 125px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-right: 100px !important;
+    margin-left: 125px !important;
+}
+
+#jw_logo {
+    height: 10%;
+    width: 10%;
+}
+
+#nav-about {
+    border: solid black;
+    height: 125px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-right: 100px !important;
+}
+
+#nav-portfolio {
+    border: solid black;
+    height: 125px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-right: 100px !important;
+}
+
+#nav-contact {
+    border: solid black;
+    height: 125px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-right: 100px !important;
+}
+
+
+#home-heading {
+    background-color: #5AFF80 !important;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+
+#software-txt {
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+#software-sub-txt {
+    padding-left: 15%;
+}
+
+#btn {
+    height: 30%;
+    width: 30%;
+    border: solid 3px black;
+    color: black;
+    background-color: #01FF56;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+
+#about-form-header {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+#about-row {
+    background-image: url("https://lightintime.com/img/coding-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+#about-txt {
+    text-align: center;
+    padding-top: 5%;
+    color: #5AFF80;
+}
+
+#about-sub-txt {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
+}
+
+#resume-btn {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #01FF56;
+    color: rgb(0, 0, 0);
+    border: #01FF56 solid 1px;
+    margin-bottom: 10%;
+}
+
+
+#web-txt {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+#web-txt:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#web-txt.active {
+    border: 3px solid black;
+}
+
+#app-txt:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#app-txt.active {
+    border: 3px solid black;
+}
+
+#app-txt {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+#ui-txt:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#ui-txt.active {
+    border: 3px solid black;
+}
+
+#ui-txt {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+#other-txt:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#other-txt {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+#other-txt.active {
+    border: 3px solid black;
+}
+
+
+
+#exp-row {
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+#exp-row-1 {
+    text-align: center;
+    margin-top: 5%;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#exp-row-2 {
+    text-align: center;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#exp-row-3 {
+    text-align: center;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#exp-row-4 {
+    text-align: center;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#breaker-row {
+    background-color: #01FF56;
+}
+
+#breaker-img {
+    margin-top: 5%;
+}
+
+#core-txt {
+    margin-left: 5%;
+}
+
+#breaker-img-1 {
+    height: 85px;
+    width: 75px;
+    margin-left: 50%;
+}
+
+#breaker-img-2 {
+    height: 85px;
+    width: 75px;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+#breaker-img-3 {
+    height: 85px;
+    width: 75px;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+#breaker-img-4 {
+    height: 85px;
+    width: 100px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#breaker-img-5 {
+    height: 85px;
+    width: 75px;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+#breaker-img-6 {
+    height: 95px;
+    width: 95px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+#breaker-h1-txt {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-right: 20%;
+}
+
+#img-11 {
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+}
+
+#img-12 {
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+}
+
+#img-13 {
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+}
+
+#img-14 {
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+}
+
+#img-101 {
+    height: 100%;
+    width: 100%;
+}
+
+#img-102 {
+    height: 100%;
+    width: 100%;
+}
+
+#img-103 {
+    height: 100%;
+    width: 100%;
+}
+
+#img-104 {
+    height: 100%;
+    width: 100%;
+}
+
+#footer-row {
+    background-color: #01FF56;
+}
+
+#firstName {
+    margin-left: 5%;
+    width: 70%;
+}
+
+#firstNameLabel {
+    margin-left: 5%;
+}
+
+#contact-me-header {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#footer-row {
+    background-color: #01FF56;
+}
+
+#firstName {
+    margin-left: 5%;
+    width: 70%;
+}
+
+#firstNameLabel {
+    margin-left: 5%;
+}
+
+#contact-me-header {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 3%;
+    border-bottom: solid black 1px;
+}
+
+#form-col-1 {
+    margin-left: 20%;
+}
+
+#name-input {
+    width: 80%;
+    margin-top: 5%;
+    height: 50px;
+    background-color: #01FF56;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#email-input {
+    width: 80%;
+    margin-top: 3%;
+    height: 50px;
+    background-color: #01FF56;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#message-text-area {
+    width: 80%;
+    margin-top: 3%;
+    height: 55%;
+    height: 50px;
+    background-color: #01FF56;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#submit-btn {
+    width: 30%;
+    height: 55%;
+    margin-top: 3%;
+    height: 50px;
+    background-color: #01FF56;
+    margin-bottom: 17%;
+}
+
+#resume-btn-2 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    display: block;
+    background-color: #01FF56;
+    color: rgb(0, 0, 0);
+    border: #000000 solid 1px;
+}
+
+#bar-msg {
+    padding-bottom: 3%;
+}

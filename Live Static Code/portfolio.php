@@ -66,39 +66,46 @@ $_POST["insert your message here"]. "From: an@email.address");
     <!-- End of BOOTSTRAP ROW -->
     <!-- Start of BOOTSTRAP ROW -->
     <div class="row" id="port-row-txt">
-        <h1 id="port-txt">Projects</h1>
+        <div class="container">
+            <h1 id="port-txt">Projects</h1>
+        </div>
     </div>
+
     <div class="row" id="portfolio-heading">
-        <h1 id="portfolio-heading-txt">Projects I have created in the last year</h1>
+        <div class="container">
+            <h1 id="portfolio-heading-txt">Projects I have created in the last year</h1>
+        </div>
     </div>
+
     <div class="row" id="project-row-3">
-        <div class="col" id="project-5">
+        <div class="col-md-6" id="project-5">
         <h3 id="portfolio-img-heading">Portfolio: Website</h3>
         <p id="shop-tas-dets4">Yes thats right I am talking about the current website you are on. This is my fully static 100% self coded portfolio website.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, PhP, ajax, CSS, Bootstrap<br/><br/><img id="github-img"src="https://lightintime.com/img/GitHub_Logo.png"><br/><br/>GitHub: <a onclick="web_github_link()" id="a-1">https://github.com/justDlight/JW_web</a></p>
         </div>
+        <div class="col-md-6" id="project-5">
+        <h3 id="portfolio-img-heading">Next.JS Ecommerce Website</h3>
+        <p id="shop-tas-dets4">Currently in development.<br/><br/><img id="github-img"src="https://lightintime.com/img/coming_soon.jpg"><br/><br/>GitHub: <a onclick="eweb_github_link()" id="a-1">https://github.com/justDlight/ecommerce_site</a></p>
+        </div>
     </div>
     <div class="row" id="project-row-1">
-        <div class="col" id="project-1">
+        <div class="col-md-6" id="project-1">
             <h3 id="shop-tas-heading">Shop Tasmania: Mobile Application</h3>
-            <p id="shop-tas-dets">Shop Tasmania is an online e-commerce website where users can buy the latest Tasmania products. Shop Tasmania the App is designed around the Shop Tasmania website and acts as a wrapper for the site. The mobile Shop Tasmania Application was made through Eazi-App CMS. The CSS code developed by me can be seen in my GitHub Repo provided below. The custom page HTML and CSS code is not available to the public but inquries can be made via the contact form below. This was the second project I created that was developed for a client.<br/><br/>CODE LANGUAGES USED:<br/>HTML, CSS & SCSS.<br/><br/>Android Link: <a onclick="android_link()" id="a-1">https://play.google.com/store/apps/details?id=com.eaziapps.cms.android635f10feb6de3&hl=en&gl=US</a><br/>iOS Link: <a onclick="iOS_link()" id="a-1">https://apps.apple.com/au/app/shop-tasmania/id6444770736</a><br/>GitHub: <a onclick="shop_github_link()" id="a-1">https://github.com/justDlight/list_web_app</a></p>
-            <img src="https://lightintime.com/img/shop-tas.png" id="project-1-img">
+            <p id="shop-tas-dets">Shop Tasmania is an online e-commerce website where users can buy the latest Tasmania products.<br/><br/>CODE LANGUAGES USED:<br/>HTML, CSS & SCSS.<br/><br/><img src="https://lightintime.com/img/shop-tas.png" id="project-1-img"><br/><br/>Android Link: <a onclick="android_link()" id="a-1">https://play.google.com/store/apps/details?id=com.eaziapps.cms.android635f10feb6de3&hl=en&gl=US</a><br/>iOS Link: <a onclick="iOS_link()" id="a-1">https://apps.apple.com/au/app/shop-tasmania/id6444770736</a><br/>GitHub: <a onclick="shop_github_link()" id="a-1">https://github.com/justDlight/list_web_app</a></p>
+            
         </div>
-        <div class="col" id="project-2">
+        <div class="col-md-6" id="project-2">
         <h3 id="list-heading">List Creator: Web Application</h3>
-        <p id="shop-tas-dets1">The list Application is an application where a user can create a list. Users can register to the site if they would like to save their list and see their previous list. Options to download the list as a text file as well as deleting an item or the list are all there. Sorry for the confusing URL Planning to move this application to a different domain in the future.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, PhP & MySQLi, CSS, SQL, Bootstrap & ajax.<br/><br/>Website: <a onclick="climb_tas_link()" id="a-1">https://climbingtasmania.com/login.php</a><br/>GitHub: <a onclick="climb_tas_github()" id="a-1">https://github.com/justDlight/list_web_app</a></p>
-            <img src="https://lightintime.com/img/list.png" id="project-2-img">
+        <p id="shop-tas-dets1">The list Application is an application where a user can create a list.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, PhP & MySQLi, CSS, SQL, Bootstrap & ajax.<br/><br/><img src="https://lightintime.com/img/list.png" id="project-2-img"><br/><br/>Website: <a onclick="climb_tas_link()" id="a-1">https://climbingtasmania.com/login.php</a><br/>GitHub: <a onclick="climb_tas_github()" id="a-1">https://github.com/justDlight/list_web_app</a></p>
         </div>
     </div>
     <div class="row" id="project-row-2">
-        <div class="col" id="project-3">
+        <div class="col-md-6" id="project-3">
         <h3 id="macro-heading">VBA Macro: Excel VBA Macro</h3>
-        <p id="shop-tas-dets2">Project underworks come back soon!</p>
-            <img src="https://lightintime.com/img/coming_soon.jpg" id="project-3-img">
+        <p id="shop-tas-dets2">Project underworks come back soon!<img src="https://lightintime.com/img/coming_soon.jpg" id="project-3-img"></p>
         </div>
-        <div class="col" id="project-4">
+        <div class="col-md-6" id="project-4">
         <h3 id="light-in-time-heading">Light In Time: Website</h3>
-        <p id="shop-tas-dets3">Light In Time is the first fully static 100% self-coded website that I created for my first client. Light In Time is a showcase of Henry Lindner’s Photography and Videography. Henry Lindner has travelled the world collecting these photos. Some issues with the website like server load times and no SSL certificate are still being discussed out with the client.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, CSS, Bootstrap<br/><br/>Website: <a onclick="light_link()" id="a-1">http://www.lightintime.com/</a><br/>GitHub: <a onclick="light_github_link()" id="a-1">https://github.com/justDlight/Light_In_Time</a></p>
-            <img src="https://lightintime.com/img/light-in-time.png" id="project-4-img">
+        <p id="shop-tas-dets3">Light In Time is a showcase of Henry Lindner’s Photography and Videography.<br/><br/>CODE LANGUAGES USED:<br/>HTML, JavaScript, CSS, Bootstrap<br/><br/><img src="https://lightintime.com/img/light-in-time.png" id="project-4-img"><br/><br/>Website: <a onclick="light_link()" id="a-1">http://www.lightintime.com/</a><br/>GitHub: <a onclick="light_github_link()" id="a-1">https://github.com/justDlight/Light_In_Time</a></p>
         </div>
     </div>
     
@@ -115,7 +122,7 @@ $_POST["insert your message here"]. "From: an@email.address");
                 <form method="post" name="myemailform" action="send-email.php">
                      <h5 id="email-txt">EMAIL ME</h5><input type="text" name="name" placeholder="Your Name" id="name-input">
                      <br/>
-                    <input type="text" placeholder="sample@email.com" id="email-input" name="email">
+                    <input type="text" placeholder="Sample@email.com" id="email-input" name="email">
                     <br/>
                     <textarea name="message" id="message-text-area" placeholder="Type your message here"></textarea>
                     <br/>

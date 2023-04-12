@@ -81,6 +81,14 @@ function dwn_resume() {
     link.click()
   }
 
+  function eweb_github_link () {
+    var link = document.createElement("a")
+    link.href = "https://github.com/justDlight/ecommerce_site";
+    link.target = "_blank"
+    link.click()
+  }
+
+
   function switchVisible() {
     // hide all description paragraphs
     document.getElementById("description-txt-1").style.display = "none";
@@ -137,11 +145,20 @@ function dwn_resume() {
 function toContactme() {
     window.location.href = "https://johnweiss1996.com/#footer-row";
 }
+
+function goMobile() {
+  window.location.href = "https://johnweiss1996.com/mobileHome.php";
+}
   
+function goDesktop() {
+  window.location.href = "https://johnweiss1996.com";
+}
+
 function toHome() {
   window.location.href = "https://johnweiss1996.com";
 }
   
+
   
 
   
