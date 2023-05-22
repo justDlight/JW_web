@@ -88,6 +88,19 @@ function dwn_resume() {
     link.click()
   }
 
+  function vba_github () {
+    var link = document.createElement("a")
+    link.href = "https://github.com/justDlight/VBA_Excel_Macro";
+    link.target = "_blank"
+    link.click()
+  }
+
+  function eweb_web_link () {
+    var link = document.createElement("a")
+    link.href = "https://ecommerce-site-git-main-justdlight.vercel.app/";
+    link.target = "_blank"
+    link.click()
+  }
 
   function switchVisible() {
     // hide all description paragraphs

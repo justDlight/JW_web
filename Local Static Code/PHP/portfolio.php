@@ -57,7 +57,7 @@
 
     <div class="row" id="portfolio-heading">
         <div class="container">
-            <h1 id="portfolio-heading-txt">Projects I have created in the last year</h1>
+            <h1 id="portfolio-heading-txt">Projects I have created in the last year. For more details about the projects please visit the github links README.md files.</h1>
         </div>
     </div>
 
@@ -68,7 +68,7 @@
         </div>
         <div class="col-md-6" id="project-5">
         <h3 id="portfolio-img-heading">Next.JS Ecommerce Website</h3>
-        <p id="shop-tas-dets4">Currently in development.<br/><br/><img id="github-img"src="https://lightintime.com/img/coming_soon.jpg"><br/><br/>GitHub: <a onclick="eweb_github_link()" id="a-1">https://github.com/justDlight/ecommerce_site</a></p>
+        <p id="shop-tas-dets4">Currently in development.<br/><br/>CODE LANGUAGES USED:<br/>Next.js Project, React, Snipcart library, HTML, JavaScript, CSS, Bootstrap<br/><br/><img src="https://lightintime.com/img/Ecommerce_Site.png" id="project-5-img"><br/><br/>Website: <a onclick="eweb_web_link()" id="a-1">https://ecommerce-site-git-main-justdlight.vercel.app/</a><br/>GitHub: <a onclick="eweb_github_link()" id="a-1">https://github.com/justDlight/ecommerce_site</a></p>
         </div>
     </div>
     <div class="row" id="project-row-1">
@@ -85,7 +85,7 @@
     <div class="row" id="project-row-2">
         <div class="col-md-6" id="project-3">
         <h3 id="macro-heading">VBA Macro: Excel VBA Macro</h3>
-        <p id="shop-tas-dets2">Project underworks come back soon!<img src="https://lightintime.com/img/coming_soon.jpg" id="project-3-img"></p>
+        <p id="shop-tas-dets2">This Excel Macro was created for an undisclosed company.<br/><br/>CODE LANGUAGES USED:<br/>Visual Basic.<br/><br/><img src="https://lightintime.com/img/Excel_VBA.png" id="project-3-img"><br/><br/>GitHub: <a onclick="vba_github()" id="a-1">https://github.com/justDlight/VBA_Excel_Macro</a></p>
         </div>
         <div class="col-md-6" id="project-4">
         <h3 id="light-in-time-heading">Light In Time: Website</h3>

@@ -135,10 +135,12 @@
 
 #shop-tas-heading {
   margin-bottom: 5%;
+  margin-top: 30%;
 }
 
 #list-heading {
   margin-bottom: 5%;
+  margin-top: 30%;
 }
 
 #macro-heading {
@@ -233,7 +235,7 @@
 
 #project-4-img {
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 
@@ -346,8 +348,8 @@
 }
 
 #github-img {
-  height: 175px;
-  width: 250px;
+  height: auto;
+  width: 100%;
 }
 
 #jw_logo {

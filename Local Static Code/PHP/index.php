@@ -69,13 +69,43 @@
     <!-- End of BOOTSTRAP ROW -->
     <!-- Start of BOOTSTRAP ROW -->
     <div class="row" id="about-row">
-        <div id="about-form-header">
+    <div id="about-form-header">
             <h4 id="about-txt">ABOUT MYSELF</h4>
             <br/>
             <h2 id="about-sub-txt">I am a highly motivated and progress-focused software developer with a degree in Bachelor of Information and Communication Technology. I am a capable and consistent problem-solver skilled at prioritizing and managing projects with proficiency. My main strengths lie in web development as a full stack developer.</h2>
             <br/>
             <a id="resume-btn" onmouseover="blackOut1(this)" onmouseout="normalImg1(this)" onclick="dwn_resume()">View my CV</a>
-            
+            <div id="about-form-bottom">
+                <div class="row" id="top-progress">
+                    <div class="col" id="top-progress-col-1">
+                        <h3>Web Development</h3>
+                        <progress value="90" max="100" style="appearance: none; height: 10px; background-color: #dddddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                        </progress>
+                    </div>
+                    <div class="col" id="top-progress-col-2">
+                        <h3>Application Development</h3>
+                        <progress value="65" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                          </progress>
+                    </div>
+                </div>
+                <div class="row" id="bottom-progress">
+                    <div class="col" id="bottom-progress-col-1">
+                        <h3>UI Design</h3>
+                        <progress value="75" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                        </progress>
+                    </div>
+                    <div class="col" id="bottom-progress-col-2">
+                        <h3>C, C#, Java, Python</h3>
+                        <progress value="70" max="100" style="appearance: none; height: 10px; background-color: #ddd; border-radius: 20px; overflow: hidden;">
+                            <span style="background-color: #01FF56; border-radius: 20px;"></span>
+                        </progress>
+                    </div>
+                </div>
+                <h3 id="bar-msg">The bars above indicate my skill level in each category</h3>
+            </div>
         </div>
     </div>
     <!-- End of BOOTSTRAP ROW -->
